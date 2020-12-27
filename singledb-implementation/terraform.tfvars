@@ -1,0 +1,5 @@
+resource_group_name = "mysqldb-terraform-demo"
+location = "eastus"
+db_version="12.0"
+environment="dev"
+vault="mysampleapp-kv"

@@ -39,3 +39,4 @@ Populate variables defined in <i>terraform.tfvars</i> file.
 
 You also replace database init scripts under */scripts/* folder and make necessary changes in main.tf file.
 
+https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-ci-cd/azure-sql-db-ci-cd/
