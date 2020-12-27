@@ -1,5 +1,5 @@
-resource_group_name = "mysqldb-terraform-demo"
+resource_group_name = "aa-aot-paris-nonprod-eastus-rg"
 location = "eastus"
 db_version="12.0"
 environment="dev"
-vault="mysampleapp-kv"
+vault="amps-db-vault"

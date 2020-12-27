@@ -29,7 +29,7 @@ output "secret_value" {
 resource "azurerm_sql_firewall_rule" "fw" {
   name                = "MyDB-fwrules"
   resource_group_name = var.resource_group_name
-  server_name         = "${azurerm_sql_server.example.name}"
+  server_name         = azurerm_sql_server.example.name
   start_ip_address    = "0.0.0.0"
   end_ip_address      = "255.255.255.255"
 }
@@ -56,7 +56,7 @@ resource "azurerm_sql_server" "example" {
 }
 
 resource "azurerm_mssql_database" "test" {
-  name           = "APPDB"
+  name           = "DemoDB"
   server_id      = azurerm_sql_server.example.id
   collation      = "SQL_Latin1_General_CP1_CI_AS"
   license_type   = "LicenseIncluded"
@@ -64,6 +64,7 @@ resource "azurerm_mssql_database" "test" {
   read_scale     = true
   sku_name       = "BC_Gen5_2"
   zone_redundant = true
+  
   tags = {
     foo = "bar"
   }
