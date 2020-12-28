@@ -1,0 +1,7 @@
+resource_group_name = "mysqldb-terraform-demo"
+primary_location = "eastus"
+secondary_location = "westus"
+db_version="12.0"
+environment="dev"
+vault="mysampleapp-kv"
+sqlserver-name="myappdb-mssqlserver"
