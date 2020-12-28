@@ -24,7 +24,9 @@ Steps to execute :
 
 <i>terraform destroy -auto-approve</i> deletes all the resources defined in scripts on your Azure resource group.
 
-##Pre-requisite Details :-
+
+## Pre-requisite Details
+
 ### Resource Group
 In this example we assume that a resource group already exists so we use the <i>data</i> block. All the resources will be created in this resource group. 
 
