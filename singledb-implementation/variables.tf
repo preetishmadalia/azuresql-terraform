@@ -16,7 +16,7 @@ variable "db_version" {
 
 variable "environment" {
     type = string
-    description = "variable that describes enviornment name"
+    description = "variable that describes environment name"
 }
 
 variable "vault" {
