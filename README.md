@@ -47,7 +47,7 @@ Resources created are :-
 4. Extended policy for SQL Database
 5. Storage Account to audit database and server policies.
 
-## mssql-db-failover-grp
+## mssqldb-failover-grp
 Refer to this folder for a database deployment with failover group configuration. Deploys a database server and a MS SQL database in primary and secondary region. Database will be deployed only in primary region. With failover group enabled, database will automatically get replicated to secondary server. You can use this configration for deployment in same or different region.
 
 Populate variables defined in <i>terraform.tfvars</i> file.
