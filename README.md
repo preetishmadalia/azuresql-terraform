@@ -53,3 +53,5 @@ Refer to this folder for a database deployment with failover group configuration
 Populate variables defined in <i>terraform.tfvars</i> file.
 
 You also replace database init scripts under */scripts/* folder and make necessary changes in main.tf file.
+
+## TODO : Automated deployment of DDL statements.
